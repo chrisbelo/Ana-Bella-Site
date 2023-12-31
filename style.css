@@ -1,0 +1,40 @@
+html{
+    width: 980px;
+    height: 1050px;
+    border: 1px solid #d1d1bf;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url(imagens/fundo.png);
+}
+#foto-principal img{
+    width: 960px;
+}
+nav{
+    text-align: center;
+    padding: 10px;
+    text-transform:uppercase;
+    color:#4d5369;
+    font-weight: bold;
+    background-color: #d4d3be;
+}
+.navegacao{
+    word-spacing: 20px;
+}
+.container{
+    width: 940px;
+    height: 400px;
+    background-color: #fdfbed;
+    padding: 10px;
+}
+h2{
+    color:#98978f;
+    font-weight: bold;
+}
+h4{
+    text-align: center;
+    margin-top: 50px;
+}
