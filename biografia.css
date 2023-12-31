@@ -8,17 +8,7 @@ body{
     background-image: url(imagens/fundo.png);
 }
 #foto-principal img{
-    width: 965px;
-}
-nav{
-    text-align: center;
-    padding: 10px;
-    text-transform:uppercase;
-    color:#154c79;
-    font-weight: bold;
-}
-.navegacao{
-    word-spacing: 20px;
+    width: 963px;
 }
 .container{
     width: 940px;

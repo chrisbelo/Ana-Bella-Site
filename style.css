@@ -1,6 +1,6 @@
 html{
     width: 980px;
-    height: 1050px;
+    height: 100%;
     border: 1px solid #d1d1bf;
     margin: 0 auto;
     box-sizing: border-box;
@@ -9,6 +9,8 @@ html{
 }
 body{
     background-image: url(imagens/fundo.png);
+    display: flex;
+    flex-direction: column;
 }
 nav{
     text-align: center;
@@ -18,8 +20,17 @@ nav{
     font-weight: bold;
     background-color: #d4d3be;
 }
+nav{
+    text-align: center;
+    padding: 10px;
+    text-transform:uppercase;
+    color:#154c79;
+    font-weight: bold;
+    margin-top: -5px;
+}
 .navegacao{
     word-spacing: 20px;
+    text-align: center;
 }
 h2{
     color:#98978f;
@@ -34,4 +45,8 @@ a{
 }
 p{
     text-align: justify;
+}
+footer h4{
+    clear: both;
+    font-weight: bold;
 }

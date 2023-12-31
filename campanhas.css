@@ -3,7 +3,10 @@
 }
 .container{
     width: 940px;
-    height: 400px;
+    height: 100%;
     background-color: #fdfbed;
     padding: 10px;
+}
+.campanhas{
+    border: 10px solid #d1cfb8;
 }
