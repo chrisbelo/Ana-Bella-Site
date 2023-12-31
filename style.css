@@ -10,9 +10,6 @@ html{
 body{
     background-image: url(imagens/fundo.png);
 }
-#foto-principal img{
-    width: 960px;
-}
 nav{
     text-align: center;
     padding: 10px;
@@ -24,12 +21,6 @@ nav{
 .navegacao{
     word-spacing: 20px;
 }
-.container{
-    width: 940px;
-    height: 400px;
-    background-color: #fdfbed;
-    padding: 10px;
-}
 h2{
     color:#98978f;
     font-weight: bold;
@@ -37,4 +28,10 @@ h2{
 h4{
     text-align: center;
     margin-top: 50px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
 }

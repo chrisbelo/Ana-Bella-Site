@@ -1,3 +1,12 @@
+html{
+    width: 980px;
+    height: 1150px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(imagens/fundo.png);
+}
 #foto-principal img{
     width: 965px;
 }
@@ -13,11 +22,7 @@ nav{
 }
 .container{
     width: 940px;
-    height: 400px;
+    height: 520px;
     background-color: #fdfbed;
     padding: 10px;
-}
-h4{
-    text-align: center;
-    margin-top: 35px;
 }
